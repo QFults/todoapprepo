@@ -1,11 +1,6 @@
 class List {
   constructor () {
-    this.items = [
-      {
-        text: 'Take out trash',
-        isDone: false
-      }
-    ]
+    this.items = []
     this.getItems = () => this.items
     this.addItem = item => {
       this.items.push(item)
